@@ -291,3 +291,26 @@ p{
 #footer{
 	grid-area: pie;
 }
+
+
+button{
+	width: 100px;
+	height: 25px;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color: white;
+	margin-left: 50px;
+	border: none;
+	border-radius: 5px;
+
+
+}
+
+button:hover{
+	background: linear linear-gradient(rgb(0, 75, 0));
+	cursor: pointer;
+	color:black;
+	transition: all 1s;
+}
