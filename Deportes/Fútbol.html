@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquila tu cancha</title>
+    <link rel="shortcut icon" href="img/Logomini.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/Style.css">
+</head>
+<body>
+    <div class="contenedor grid grid-template-columns-row">
+        <nav class="bg-lightgreen botonera" id="mainNav">
+        <a href="../indexs.html">
+            <img src="../img/mainLogo.png" alt="Logo de alquila tu cancha">
+        </a>
+        <ul>
+            <li>
+                <a href="Nosotros.html">Nosotros</a>  
+            </li>
+            <li>
+                <a href="Deportes.html">Deportes</a>
+            </li>
+            <li>
+                <a href="Descarga-la-app.html">Descarga la app</a>
+            </li>
+            <li>
+                <a href="Contacto.html">Contacto</a>
+            </li>
+        </ul>
+        </nav>
+    <header class="encabezado" id="header">
+            <img src="../img/header.jpg" alt="carrusel" class="encabezado__img--fluid">
+    </header>
+    </div>
+
+    <nav id="filtros" class="secondNav">
+        <Section class="justify-content center">
+        <label for="start">Fecha</label>
+
+        <input type="date" id="start" name="trip-start"
+               value="2018-07-22"
+               min="2000-01-01" max="2022-12-31">
+        
+               <label for="appt">Hora</label>
+        
+        <input type="time" id="appt" name="appt"
+               min="09:00" max="23:00" required>
+        
+               <label for="selección de deporte">Elegi un deporte:</label>
+        
+               <select id="selección de deporte">
+                   <option value="">--Elegi un deporte:--</option>
+                   <option value="Fútbol">Fútbol</option>
+                   <option value="Basquet">Basquet</option>
+                   <option value="Tenis">Tenis</option>
+                   <option value="Volley">Volley</option>
+                   <option value="Handball">Handball</option>
+                   <option value="Rugby">Rugby</option>
+        
+                   <input type="submit" value="Enviar">
+               </select>
+               </Section>
+    </nav>
+
+    <main id="productos">
+
+        <ul>
+            <li>
+               <a href="Basquet.html"><h2>Basquet</h2></a>
+           </li>
+           <li>
+               <a href="Fútbol.html"><h2>Fútbol</h2></a>
+           </li>
+           <li>
+               <a href="Tenis.html"><h2>Tenis</h2></a>
+           </li>
+        </ul>
+          </header>
+          <h1>Fútbol</h1>
+          <img src="../img/Futbol.png" alt="Fútbol">
+          <h4>Alquila la cancha para realizar partidos de fútbol con todos tus amigos</h4>
+          <h4>Tenemos canchas de Fútbol 5 - 7 y 11</h4>
+    </main>
+
+    <footer class="pie bg-white redes-sociales" id="footer">
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="../img/instagram.png" alt="Instagram" class="pie__icon--sm"> </a>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img src="../img/facebook.png" alt="Facebook" class="pie__icon--sm"> </a> 
+        <a href="https://twitter.com/home" target="_blank">
+            <img src="../img/Twitter.png" alt="Twitter" class="pie__icon--sm"></a> 
+        </footer>
+
+</body>
